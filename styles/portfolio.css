@@ -45,6 +45,10 @@ nav li a {
 
 /* share style */
 
+.text-center {
+    text-align: center;
+}
+
 .secondary-bg {
     color: #FFF8F3;
 }
@@ -84,6 +88,11 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
 /* banner style */
 .banner {
     display: flex;
@@ -115,7 +124,7 @@ main {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+
 
 }
 
@@ -126,4 +135,14 @@ main {
 
 .item-description {
     font-weight: 600;
+}
+
+.skils-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills {
+    padding: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
